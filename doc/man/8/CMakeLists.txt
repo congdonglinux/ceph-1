@@ -39,11 +39,6 @@ if(WITH_MDS)
     ceph-mds.rst)
 endif()
 
-if(WITH_CEPHFS)
-  list(APPEND man_srcs
-    cephfs.rst)
-endif()
-
 if(HAVE_LIBFUSE)
   list(APPEND man_srcs
     ceph-fuse.rst
